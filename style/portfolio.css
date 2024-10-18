@@ -256,23 +256,55 @@ textarea{
     display: block;
     margin-bottom:24px ;
 }
-
 /* Responsive */
 @media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+        
+    }
+   
+     nav {
+       
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px;
+        flex-wrap: wrap;
+        }   
+    ul{
+        padding: 0;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 40px 0px 40px 0px ;
+    }
+    .banner-greeting{
+        margin: 0;
+    }
+    .banner-title{
+        font-size: 50px;
+        margin: 0;
+    }
+    .banner-description{
+        margin-bottom: 40px;
+    }
+    .banner-pic{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner-content .primary-button{
+        margin-bottom: 10px;
+    }
     .about{
         padding: 0px;
     }
-    .about-items{
-        flex-direction: column;
-    }
-    .skill-list{
-        flex-direction: column;
-    }
-    .resume-container{
+    .about-items,
+    .skill-list,
+    .resume-container,
+    .info
+    {
         flex-direction: column;
     }
     .info{
-        flex-direction: column;
         padding: 10px 20px 10px 20px;
     }   
     form > input{
