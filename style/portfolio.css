@@ -293,6 +293,7 @@ textarea{
     }
     .banner-content .primary-button{
         margin-bottom: 10px;
+        flex-direction: ;
     }
     .about{
         padding: 0px;
@@ -312,3 +313,4 @@ textarea{
     }
     
 }
+
